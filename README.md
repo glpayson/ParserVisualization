@@ -15,7 +15,6 @@ TODO:
 - - CFG's need indexing on the PARENT_OF property
 - - DG's need to be implemented
 - - Tighter binding between the DGNode/CFGNode classes and their corresponding Neo4j nodes. This will be necessary to fininishing the DG implementation
-- Too many classes are mutable, ideally all/most classes will be made immutable.
 - Neo4j DB locations need to be made parameters, not hard coded
 - Once Neo4j is in place, do some fancier visualizations, e.g. D3.js (http://d3js.org), Processing (http://www.processing.org), etc.
 - Support more parsers. Both other PCFG and/or DG parsers which may have different output formats, and parsers for other grammar types, e.g. LFG, TAG, HPSG.
